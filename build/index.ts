@@ -1,6 +1,7 @@
 import fs from 'fs';
 import { join } from 'path';
-import generateVars from '../index.js';
+import generateVars from '../index';
+
 
 interface Vars {
   [key: string]: string;
